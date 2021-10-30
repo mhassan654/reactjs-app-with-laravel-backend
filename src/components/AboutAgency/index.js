@@ -1,3 +1,16 @@
+// * @Author: Muwonge Hassan Saava
+
+// * @Email: hassansaava@gmail.com
+
+// * @LinkedIn: https://www.linkedin.com/in/hassan-muwonge-4a4592144/
+
+// * @Github: https://github.com/mhassan654
+
+// * @GitLab: https://gitlab.com/hmuwonge
+
+// * @Tel: +256-783-828977 / +256-704-348792
+// * Web: https://muwongehassan.com
+
 import React from 'react';
 import {connect} from 'react-redux';
 import Grid from "@material-ui/core/Grid";
@@ -25,9 +38,9 @@ const AboutAgency = (props) => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <Grid className="textContent">
-                        <strong>{about_sub_title ? about_sub_title : 'Know About Ammelias'}</strong>
-                        <h2>{about_title ? about_title : 'Ammelias For Your Business Solution'}</h2>
-                        <p>{about_description ? about_description : 'Building your online presence helps attract more potential clients. Our integrated marketing team will work directly with you to understand what makes your business unique, and provide more qualified leads to achieve success in your industry'}</p>
+                        <strong>{about_sub_title ? about_sub_title : 'Know About Us'}</strong>
+                        <h2>{about_title ? about_title : 'We Are For Your Business Solution'}</h2>
+                        <p>{about_description ? about_description : 'Building your online presence helps attract more potential clients. Our integrated marketing team will work directly  with you to understand what makes your business unique, and provide more qualified leads to achieve success in your industry'}</p>
                         <Link to="/about-us" className="cBtn">About Us</Link>
                     </Grid>
                 </Grid>
